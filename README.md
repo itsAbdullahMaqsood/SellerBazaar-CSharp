@@ -2,7 +2,7 @@
 
 ## 🎢 Overview
 
-I am delighted to share my second-semester project—a sophisticated C# Winforms and SQL Server-based application. It is a *One-Stop Ecommerce Shopping Application* where sellers, buyers, and admin can select their role and login to start selling, buying, or managing the app respectively. This project serves as an evidence to my proficiency in Object-Oriented Programming and database management, showcasing my capacity to design and implement comprehensive software solutions.
+I am delighted to share my second-semester project—a sophisticated C# WinForms and SQL Server-based application. It is a *One-Stop Ecommerce Shopping Application* where sellers, buyers, and admin can select their role and login to start selling, buying, or managing the app respectively. This project serves as evidence to my proficiency in Object-Oriented Programming and database management, showcasing my capacity to design and implement comprehensive software solutions.
 
 ## ✨ Features
 
