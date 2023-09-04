@@ -102,7 +102,9 @@ https://github.com/itsAbdullahMaqsood/SellerBazaar-CSharp/assets/113769634/d61ce
 
   2. Open the project in Visual Studio.
 
-  3. Modify the database connection string in app.config to point to your SQL Server instance:
+  3. Install Nuget Packages: **Dapper** and **Guna.UI2.WinForms**
+
+  4. Modify the database connection string in app.config to point to your SQL Server instance:
   ```
   <connectionStrings>
   <add name="MyDbConnection" connectionString="Data Source=your-server;Initial Catalog=your-database;User Id=your-       
@@ -110,7 +112,7 @@ https://github.com/itsAbdullahMaqsood/SellerBazaar-CSharp/assets/113769634/d61ce
   </connectionStrings>
   ```
 
-  4. Build and run the application.
+  5. Build and run the application.
 
  - ### Setting Up SQL Database for this App
 
