@@ -1,10 +1,10 @@
 <h1 align="center"> Seller Bazaar in <img align="center" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/csharp/csharp-original.svg" alt="csharp" width="40" height="40"/> </h1>
 
-## Overview
+## 🎢 Overview
 
 I am delighted to share my second-semester project—a sophisticated C# Winforms and SQL Server-based application. It is a *One-Stop Ecommerce Shopping Application* where sellers, buyers, and admin can select their role and login to start selling, buying, or managing the app respectively. This project serves as a testament to my proficiency in Object-Oriented Programming and database management, showcasing my capacity to design and implement comprehensive software solutions.
 
-## Features
+## ✨ Features
 
 - ### Prompting The User to Select Role and Login:
 
@@ -65,12 +65,8 @@ I am delighted to share my second-semester project—a sophisticated C# Winforms
          If a Buyer is Banned, as shown in the GIF below.
          - Their Account Status is changed to 0 in the SQL Server.
          - The Buyer can't login and use their Account.
-
-    
-
+         - 
   https://github.com/itsAbdullahMaqsood/SellerBazaar-CSharp/assets/113769634/6dc83719-018b-4c36-85e2-0a235adaac89
-
-
 
     - Total Sales: Using this Tab, The admin can keep track of how the app is performing and also keep track of the total number of purchases and sales being made by the buyers and the sellers respectively.
 
@@ -89,7 +85,7 @@ https://github.com/itsAbdullahMaqsood/SellerBazaar-CSharp/assets/113769634/6fc19
 https://github.com/itsAbdullahMaqsood/SellerBazaar-CSharp/assets/113769634/d61cef21-6006-4d81-88cd-e8807854c4f0
 
 
-## Want To Set Up and Run This App?
+## 🚀 Want To Set Up and Run This App?
 
 - ### Pre-Requisites
 
