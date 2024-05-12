@@ -2,7 +2,7 @@
 
 ## 🎢 Overview
 
-I am delighted to share my second-semester project—a sophisticated C# WinForms and SQL Server-based application. It is a *One-Stop Ecommerce Shopping Application* where sellers, buyers, and admin can select their role and login to start selling, buying, or managing the app respectively. This project serves as evidence to my proficiency in Object-Oriented Programming and database management, showcasing my capacity to design and implement comprehensive software solutions.
+This is a sophisticated C# WinForms and SQL Server-based application. It is a *One-Stop Ecommerce Shopping Application* where sellers, buyers, and admin can select their role and login to start selling, buying, or managing the app respectively. This project serves as evidence to my proficiency in Object-Oriented Programming and database management, showcasing my capacity to design and implement comprehensive software solutions.
 
 ## ✨ Features
 
@@ -107,8 +107,14 @@ https://github.com/itsAbdullahMaqsood/SellerBazaar-CSharp/assets/113769634/d61ce
   4. Modify the database connection string in app.config to point to your SQL Server instance:
   ```
   <connectionStrings>
-  <add name="MyDbConnection" connectionString="Data Source=your-server;Initial Catalog=your-database;User Id=your-       
-  username;Password=your-password;" providerName="System.Data.SqlClient" />
+  <add name="MyDbConnection" connectionString="Data Source=your-server;Initial Catalog=your-database;Trusted_Connection=True" providerName="System.Data>SqlClient" />
+  </connectionStrings>
+  ```
+  
+  which for me was:
+  ```
+  <connectionStrings>
+	<add name="MarketDB" connectionString="Server=Desktop-k9dj9rb\sqlexpress;Database=MarketDB;Trusted_Connection=True" providerName="System.Data>SqlClient"/>
   </connectionStrings>
   ```
 
