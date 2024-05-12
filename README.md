@@ -107,8 +107,14 @@ https://github.com/itsAbdullahMaqsood/SellerBazaar-CSharp/assets/113769634/d61ce
   4. Modify the database connection string in app.config to point to your SQL Server instance:
   ```
   <connectionStrings>
-  <add name="MyDbConnection" connectionString="Data Source=your-server;Initial Catalog=your-database;User Id=your-       
-  username;Password=your-password;" providerName="System.Data.SqlClient" />
+  <add name="MyDbConnection" connectionString="Data Source=your-server;Initial Catalog=your-database;Trusted_Connection=True" providerName="System.Data>SqlClient" />
+  </connectionStrings>
+  ```
+  
+  which for me was:
+  ```
+  <connectionStrings>
+	<add name="MarketDB" connectionString="Server=Desktop-k9dj9rb\sqlexpress;Database=MarketDB;Trusted_Connection=True" providerName="System.Data>SqlClient"/>
   </connectionStrings>
   ```
 
