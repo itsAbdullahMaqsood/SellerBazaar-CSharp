@@ -29,16 +29,16 @@ namespace Market_Management_System
         private void timer1_Tick(object sender, EventArgs e)
         {
            
-                startpoint += 20;
+                startpoint += 2;
                 progressbarSplash.Value = startpoint;
 
 
             if (startpoint == 100)
             {
                 timerSplash.Stop();
-                formSignin formLogin = new formSignin();
+                formSelectRole formSelectRole = new formSelectRole();
                 this.Hide();
-                formLogin.Show(); 
+                formSelectRole.Show(); 
             }
         }
 
